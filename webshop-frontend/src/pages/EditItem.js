@@ -22,7 +22,7 @@ function EditItem(props) {
             if (!data.httpStatus) {
               setLoadedItem(data);
             } else {
-              setMessage(data.message);
+              setMessage(data.message); 
             }
             setLoading(false);
         })

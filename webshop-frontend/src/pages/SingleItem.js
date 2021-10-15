@@ -15,7 +15,7 @@ function SingleItem(props) {
         }).then(data => {
             console.log(data);
             if (!data.httpStatus) {
-              setLoadedItem(data);
+              setLoadedItem(data); 
             } else {
               setMessage(data.message);
             }
